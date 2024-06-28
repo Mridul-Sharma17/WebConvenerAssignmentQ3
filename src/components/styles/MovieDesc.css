@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
+
+.desc-body {
+  background-color: black;
+  color: white;
+  padding: 55px 0 0 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.desc-custom-container {
+  padding-left: 4%;
+  padding-right: 4%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.desc-header {
+  color: white;
+}
+
+.desc-h1 {
+  font-size: 2.5em;
+  background: linear-gradient(90deg, #ffffff, #ffff00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-family: "Roboto Slab", serif;
+  margin: auto;
+}
+
+.desc-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.desc-poster {
+  margin: auto;
+  max-height: 60vh;
+  max-width: fit-content;
+  border-radius: 10px;
+}
+
+.desc-movie-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.desc-movie-description {
+  margin-bottom: 20px;
+  flex: 2;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.desc-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.desc-form-entry {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.desc-form-label {
+  color: white;
+  margin-right: 10px;
+}
+
+.desc-form-control {
+  border-radius: 20px;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #000;
+  width: fit-content;
+}
+
+.rating {
+  margin-right: 38px;
+}
+
+.comments {
+  width: 100%;
+}
+
+.desc-btn-primary {
+  font-size: 1.1em;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  background: linear-gradient(90deg, #ffffff, #ffff00);
+  color: black;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.desc-btn-primary:hover {
+  background: linear-gradient(90deg, #ffff00, #ffffff);
+  color: black;
+  transform: scale(1.1);
+}
+
+.desc-btn-danger {
+  font-size: 1.1em;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  background-color: red;
+  color: white;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.desc-btn-danger:hover {
+  background-color: #ffff00;
+  color: black;
+  transform: scale(1.1);
+}
+
+.desc-reviews-container {
+  max-height: calc(70vh - 55px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0;
+  flex: 1;
+}
+
+.desc-list-unstyled {
+  padding: 0;
+  margin: 0;
+}
+
+.desc-list-unstyled li {
+  background-color: rgb(61, 61, 61);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.desc-list-unstyled li p {
+  color: white;
+}
+
+.desc-list-unstyled li button {
+  margin-top: 10px;
+}
+
+.desc-description-heading {
+  font-size: 1.5em;
+  font-family: "Roboto Slab", serif;
+}

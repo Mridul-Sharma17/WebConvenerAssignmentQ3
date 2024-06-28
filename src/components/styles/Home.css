@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
+
+.admin-body {
+  background: linear-gradient(45deg, #1d1f21, #282c34);
+  color: white;
+  margin: 0;
+  padding: 55px 0 0 0;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.admin-page {
+  width: 100%;
+  padding: 20px;
+  height: auto;
+}
+
+.admin-greeting {
+  background: linear-gradient(90deg, #ffffff, #ffff00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-family: "Roboto Slab", serif;
+}
+
+.admin-search-bar,
+.admin-filter-select {
+  font-size: 1em;
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.admin-movie-card {
+  position: relative;
+  background-color: rgb(61, 61, 61);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.admin-movie-card .admin-card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.admin-movie-card .admin-card-title {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  background: linear-gradient(90deg, #ffffff, #ffff00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-family: "Roboto Slab", serif;
+}
+
+.admin-movie-card .admin-movie-poster-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.admin-movie-card .admin-movie-poster {
+  max-height: 270px;
+}
+
+.admin-movie-card .admin-movie-details {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.admin-movie-card .admin-movie-details p {
+  color: rgb(255, 255, 255);
+}
+
+.home-page-movie {
+  margin-bottom: 20px;
+}
+
+.admin-movie-card:hover {
+  transform: translateY(-10px);
+}

@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
+
+.add-movie-body {
+  background-color: black;
+  color: white;
+  padding: 55px 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-movie-container {
+  width: 80%;
+  max-width: 600px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.add-movie-header {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-movie-form {
+  margin-bottom: 20px;
+}
+
+.add-movie-label {
+  color: white;
+}
+
+.add-movie-control {
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #000;
+  width: 100%;
+}
+
+.add-movie-btn-primary {
+  font-size: 1.1em;
+  border: none;
+  border-radius: 20px;
+  padding: 12px;
+  background: linear-gradient(90deg, #ffffff, #ffff00);
+  color: black;
+  transition: background 0.3s, transform 0.3s;
+  width: 100%;
+}
+
+.add-movie-btn-primary:hover {
+  background: linear-gradient(90deg, #ffff00, #ffffff);
+  color: black;
+  transform: scale(1.1);
+}
+
+.add-movie-btn-danger {
+  font-size: 1.1em;
+  border: none;
+  border-radius: 20px;
+  padding: 12px;
+  background-color: red;
+  color: white;
+  transition: background-color 0.3s, transform 0.3s;
+  width: 100%;
+}
+
+.add-movie-btn-danger:hover {
+  background-color: #ffff00;
+  color: black;
+  transform: scale(1.1);
+}

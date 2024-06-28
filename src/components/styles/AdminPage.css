@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
+
+.admin-body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 55px 0 0 0;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.admin-page {
+  width: 100%;
+  padding: 20px;
+  height: auto;
+}
+
+.admin-greeting {
+  background: linear-gradient(90deg, #ffffff, #ffff00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-family: "Roboto Slab", serif;
+}
+
+.admin-addMovie {
+  font-size: 1.1em;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  background: linear-gradient(90deg, #ffffff, #ffff00);
+  color: rgb(0, 0, 0);
+  transition: background 0.3s, transform 0.3s;
+  text-decoration: none;
+}
+
+.admin-addMovie:hover {
+  background: linear-gradient(90deg, #ffff00, #ffffff);
+  color: rgb(0, 0, 0);
+  transform: scale(1.1);
+}
+
+.admin-search-bar {
+  font-size: 1em;
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  width: 60%;
+  margin-right: 10px;
+}
+
+.admin-filter-select {
+  font-size: 1em;
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #000;
+}
+
+.admin-movie-card {
+  position: relative;
+  background-color: rgb(61, 61, 61);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.admin-movie-card .admin-card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.admin-movie-card .admin-card-title {
+  font-size: 1.8em;
+  background: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-family: "Roboto Slab", serif;
+}
+
+.admin-movie-card .admin-movie-poster-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.admin-movie-card .admin-movie-poster {
+  max-height: 270px;
+}
+
+.admin-movie-card .admin-movie-details {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.admin-movie-card .admin-movie-details p {
+  color: rgb(255, 255, 255);
+}
+
+.admin-movie-card .admin-card-footer {
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: bottom 0.3s ease, background-color 0.3s ease;
+}
+
+.admin-movie-card:hover {
+  transform: translateY(-10px);
+}
+
+.admin-movie-card:hover .admin-card-footer {
+  bottom: 0;
+}
+
+.admin-movie-card .admin-card-footer button {
+  margin: 0 5px;
+  border-radius: 20px;
+  padding: 8px 16px;
+  border: none;
+  color: white;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.admin-movie-card .admin-card-footer button.admin-btn-primary {
+  background-color: black;
+}
+
+.admin-movie-card .admin-card-footer button.admin-btn-danger {
+  background-color: red;
+}
+
+.admin-movie-card .admin-card-footer button:hover {
+  background-color: #ffff00;
+  color: black;
+  transform: scale(1.1);
+}
+
+.admin-btn-animated {
+  font-size: 1.2em;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: background-color 0.3s, transform 0.3s color 0.3s;
+}
+
+.admin-btn-animated:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}

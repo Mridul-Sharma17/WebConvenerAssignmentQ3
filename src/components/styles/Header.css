@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
+
+.header-navbar {
+  background: linear-gradient(45deg, #333, #444);
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.site-name {
+  font-size: 1.5em;
+  background: linear-gradient(90deg, #ffffff, #ffff00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-family: "Roboto Slab", serif;
+}
+
+.site-name:hover {
+  font-size: 1.5em;
+  background: linear-gradient(90deg, #ffff00, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-family: "Roboto Slab", serif;
+  transform: scale(1.1);
+  transition: background 0.3s, transform 0.3s;
+}
+
+.logout-button {
+  font-size: 1.1em;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  background: linear-gradient(90deg, #ffffff, #ffff00);
+  color: rgb(0, 0, 0);
+  transition: background 0.3s, transform 0.3s;
+}
+
+.logout-button:hover {
+  background: linear-gradient(90deg, #ffff00, #ffffff);
+  transform: scale(1.1);
+}
